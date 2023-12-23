@@ -1,0 +1,17 @@
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+
+
+$custom-theme-colors: (
+  "main":    #FF5301,
+  "sub":  #1b1b1d,
+  "sub2":  #d8d9db,
+  "sub3": #262635,
+  "main-gradient": #ff6f62,
+  "white": white,
+  "none": #FFFFFF00,
+  "92": #929292
+);
+
+$theme-colors:map-merge($custom-theme-colors , $theme-colors );
+@import "../../../node_modules/bootstrap/scss/bootstrap";
